@@ -1,7 +1,7 @@
-# Passwork checker
+# Calendar
 
 ### To view:
-Check [this link](https://lvandernoll.github.io/password-checker/)
+Check [this link](https://lvandernoll.github.io/calendar/)
 
 ### To run:
 - Clone the repository
