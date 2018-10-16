@@ -7,11 +7,16 @@
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body>
-	<section class="schedule__wrapper">
-		<header class="schedule__header"></header>
-		<div class="schedule__date-bar"></div>
-		<div class="schedule__timeline">
-			<div class="timeline__day"></div>
+	<section class="schedule-wrapper">
+		<header class="schedule__header">&lt; Schedule +</header>
+		<div id="dateBar" class="schedule__date-bar">
+			<div id="dateBarDayTemplate" class="schedule__day hidden">
+				<div class="schedule-day__day"></div>
+				<div class="schedule-day__date"></div>
+			</div>
+		</div>
+		<div id="timeline" class="schedule__timeline">
+			<div id="timelineDayTemplate" class="timeline__day hidden"></div>
 		</div>
 	</section>
 	<script src="js/app-min.js"></script>
